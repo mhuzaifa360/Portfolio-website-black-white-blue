@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'font2';
+    src: url(./assets/fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background:
+    linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), 
+        url('./assets/images/mahel.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 13vh;
+    background: #252424;
+    border-bottom: 4px solid blue;
+    outline: 4px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px ;
+}
+.nav-logo h1{
+    color: aqua;
+    font-family: 'font2';
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 30px blue;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color:  blue;
+}
+img{
+    width: 300px;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-radius: 15px;
+}
+
+.hero-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.content{
+    line-height: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+#title{
+    color: aqua;
+    font-family: 'font2';
+    font-size: 70px;
+    text-shadow: 1px 1px 30px blue;
+    letter-spacing: 10px;
+}
+#contact-title{
+    font-family: 'font2';
+    font-size: 50px;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.card-section{
+    width: 80%;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    font-size: 25px;
+    background: #252424;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-radius: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0px;
+    outline: 4px solid blue;
+    border-top: 4px solid white;
+    background: #252424;
+}
+.icons img{
+    width: 50px;
+    border: none;
+}
+.icons img:hover{
+    box-shadow: 1px 1px 10px 4px blue;
+}
+footer span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
